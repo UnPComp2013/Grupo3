@@ -125,3 +125,25 @@
      </item>
     </layout>
    </widget>
+ <zorder>pushButton</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>spinBox</zorder>
+   <zorder>plainTextEdit</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>buttonBox</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>373</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
