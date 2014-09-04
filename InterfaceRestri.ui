@@ -41,3 +41,19 @@
       <widget class="QLabel" name="label">
        <property name="text">
         <string>Carga horária*</string>
+ </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spinBox"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>95</width>
+      <height>130</height>
+     </rect>
