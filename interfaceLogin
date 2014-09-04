@@ -87,3 +87,65 @@
          <property name="text">
           <string>Salvar Login</string>
          </property>
+          </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QToolButton" name="toolButton_2">
+         <property name="text">
+          <string>...</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="line_senha"/>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="box_senha">
+         <property name="text">
+          <string>Salvar Senha</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="Line" name="line_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>Conectar</zorder>
+   <zorder>Box_login</zorder>
+   <zorder>box_senha</zorder>
+   <zorder>Box_login</zorder>
+   <zorder>box_senha</zorder>
+   <zorder>login</zorder>
+   <zorder>senha</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>line_senha</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>399</width>
+     <height>21</height>
+    </rect>
