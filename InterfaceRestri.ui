@@ -57,3 +57,71 @@
       <width>95</width>
       <height>130</height>
      </rect>
+ </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Restrição de Dia*</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_5">
+       <property name="text">
+        <string>Segunda-Feira</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="text">
+        <string>Terça-Feira</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_2">
+       <property name="text">
+        <string>Quarta-Feira</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_3">
+       <property name="text">
+        <string>Quinta-Feira</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox_4">
+       <property name="text">
+        <string>Sexta-Feira</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>119</x>
+      <y>50</y>
+      <width>201</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Motivo:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPlainTextEdit" name="plainTextEdit"/>
+     </item>
+    </layout>
+   </widget>
