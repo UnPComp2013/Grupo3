@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
@@ -6,19 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>365</width>
+    <width>333</width>
     <height>201</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>AGL - Sistema de Criação de Horários </string>
+   <string>SCH - Sistema de Criação de Horários </string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="Entrar">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>150</y>
+      <x>130</x>
+      <y>140</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -27,24 +27,11 @@
      <string>Entrar</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Limpar">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>150</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Limpar</string>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="Usuario">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>80</y>
+      <x>110</x>
+      <y>70</y>
       <width>171</width>
       <height>20</height>
      </rect>
@@ -59,8 +46,8 @@
    <widget class="QLineEdit" name="Senha">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>110</y>
+      <x>110</x>
+      <y>100</y>
       <width>171</width>
       <height>20</height>
      </rect>
@@ -90,8 +77,8 @@
    <widget class="QLabel" name="Texto">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>80</y>
+      <x>60</x>
+      <y>70</y>
       <width>51</width>
       <height>16</height>
      </rect>
@@ -103,14 +90,27 @@
    <widget class="QLabel" name="Texto_2">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>110</y>
+      <x>60</x>
+      <y>100</y>
       <width>51</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
      <string>Senha:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>221</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bem vindo ao Sistema de criação de Horários!</string>
     </property>
    </widget>
   </widget>
