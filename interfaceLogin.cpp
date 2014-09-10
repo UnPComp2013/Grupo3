@@ -13,3 +13,9 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_pushButton_clicked()
+{
+        QMessageBox::information(this,tr("Erro!"),tr("Digite Matricula!"));
+
+}
