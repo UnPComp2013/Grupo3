@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Administrador</class>
+ <widget class="QMainWindow" name="Administrador">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>669</width>
+    <height>352</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>669</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCoordenadores">
+    <property name="title">
+     <string>Coordenadores</string>
+    </property>
+    <addaction name="actionCadastrar"/>
+    <addaction name="separator"/>
+    <addaction name="actionDeletar"/>
+    <addaction name="separator"/>
+    <addaction name="actionListar4"/>
+   </widget>
+   <addaction name="menuCoordenadores"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCadastrar">
+   <property name="text">
+    <string>Cadastrar</string>
+   </property>
+  </action>
+  <action name="actionDeletar">
+   <property name="text">
+    <string>Deletar</string>
+   </property>
+  </action>
+  <action name="actionListar4">
+   <property name="text">
+    <string>Listar</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
