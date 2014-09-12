@@ -6,6 +6,7 @@ Administrador::Administrador(QWidget *parent) :
     ui(new Ui::Administrador)
 {
     ui->setupUi(this);
+    connect(ui->actionSair, SIGNAL(triggered()), this, SLOT(close()));
 }
 
 Administrador::~Administrador()
