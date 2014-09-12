@@ -7,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     connect(ui->Entrar, SIGNAL(clicked()), this, SLOT(ativarAdministrador()));
+
 }
 
 MainWindow::~MainWindow()
