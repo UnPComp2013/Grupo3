@@ -1,3 +1,4 @@
+#include <QMainWindow>
 #include <regras.h>
 #include <administrador.h>
 
