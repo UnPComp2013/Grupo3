@@ -19,4 +19,4 @@ private:
     Ui::Administrador *ui;
 };
 
-#endif // ADMINISTRADOR_H
+#endif
