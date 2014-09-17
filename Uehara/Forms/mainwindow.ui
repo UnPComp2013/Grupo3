@@ -103,7 +103,7 @@
      <string>Lembrar</string>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -142,15 +142,11 @@
      <string>Entrar</string>
     </property>
    </widget>
-   <zorder>Texto</zorder>
+   <zorder>layoutWidget</zorder>
    <zorder>Usuario</zorder>
-   <zorder>Texto_2</zorder>
    <zorder>line</zorder>
    <zorder>label</zorder>
    <zorder>Senha</zorder>
-   <zorder>Entrar</zorder>
-   <zorder>radioButton</zorder>
-   <zorder>radioButton_2</zorder>
    <zorder>checkBox</zorder>
    <zorder>Entrar</zorder>
   </widget>
