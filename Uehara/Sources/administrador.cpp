@@ -7,9 +7,15 @@ Administrador::Administrador(QWidget *parent) :
 {
     ui->setupUi(this);
     connect(ui->actionSair, SIGNAL(triggered()), this, SLOT(close()));
+    connect(ui->actionCadastrar, SIGNAL(triggered()), this, SLOT(cadastrarCoord()));
 }
 
 Administrador::~Administrador()
 {
     delete ui;
+}
+void Administrador::cadastrarCoord()
+{
+    this->close();
+    TelaConsultar.show();
 }
