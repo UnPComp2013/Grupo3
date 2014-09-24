@@ -9,3 +9,17 @@
 <width>475</width>
 <height>256</height>
 </rect>
+ </property>
+<property name="windowTitle">
+<string>Dados</string>
+</property>
+<widget class="QWidget" name="centralWidget">
+<widget class="QDialogButtonBox" name="buttonBox">
+<property name="geometry">
+<rect>
+<x>260</x>
+<y>170</y>
+<width>156</width>
+<height>23</height>
+</rect>
+</property>
