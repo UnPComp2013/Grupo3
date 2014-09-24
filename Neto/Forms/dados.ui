@@ -23,3 +23,15 @@
 <height>23</height>
 </rect>
 </property>
+ <y>100</y>
+<width>46</width>
+<height>13</height>
+</rect>
+</property>
+<property name="text">
+<string/>
+</property>
+</widget>
+<widget class="QWidget" name="">
+<property name="geometry">
+<rect>
