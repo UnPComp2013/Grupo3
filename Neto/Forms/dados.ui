@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+<class>Dados</class>
+<widget class="QMainWindow" name="Dados">
+<property name="geometry">
+<rect>
+<x>0</x>
+<y>0</y>
+<width>475</width>
+<height>256</height>
+</rect>
