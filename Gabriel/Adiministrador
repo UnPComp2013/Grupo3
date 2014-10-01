@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Administrador</class>
+ <widget class="QMainWindow" name="Administrador">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>669</width>
+    <height>359</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SCH - Sistema de Cadastro de Horários - Administrador</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>140</y>
+      <width>541</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>SCH - Sistema de Cadastro de Horários</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>190</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Bem vindo!</string>
+     </property>
+	   </widget>
+	   <widget class="Line" name="line">
+	    <property name="geometry">
+	     <rect>
+	      <x>30</x>
+	      <y>232</y>
+	      <width>581</width>
+	      <height>20</height>
+	     </rect>
+	    </property>
+	    <property name="orientation">
+	     <enum>Qt::Horizontal</enum>
+	    </property>
+	   </widget>
+	   <widget class="Line" name="line_2">
+	    <property name="geometry">
+	     <rect>
+	      <x>30</x>
+	      <y>110</y>
+	      <width>581</width>
+	      <height>20</height>
+	     </rect>
+	    </property>
+	    <property name="orientation">
+	     <enum>Qt::Horizontal</enum>
+	    </property>
+	   </widget>
+	   <widget class="Line" name="line_3">
+	    <property name="geometry">
+	     <rect>
+	      <x>20</x>
+	      <y>120</y>
+	      <width>20</width>
+	      <height>121</height>
+	     </rect>
+	    </property>
+	    <property name="orientation">
+	     <enum>Qt::Vertical</enum>
+	    </property>
+	   </widget>
+	   <widget class="Line" name="line_4">
+	    <property name="geometry">
+	     <rect>
+	      <x>600</x>
+	      <y>0</y>
+	      <width>20</width>
+	      <height>331</height>
+	     </rect>
+	    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>669</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+    <widget class="QMenu" name="menuCoordenador">
+     <property name="statusTip">
+      <string>Opções para o administrador cadastrar, deletar ou consultar os coordenadores.</string>
