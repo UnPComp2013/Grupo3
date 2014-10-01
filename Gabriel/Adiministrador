@@ -33,6 +33,14 @@
     <property name="text">
      <string>SCH - Sistema de Cadastro de Horários</string>
     </property>
+         </property>
+     <property name="title">
+      <string>Coordenador</string>
+     </property>
+     <addaction name="actionCadastrar"/>
+     <addaction name="separator"/>
+     <addaction name="actionExcluir"/>
+
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
