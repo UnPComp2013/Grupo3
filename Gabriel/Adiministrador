@@ -175,3 +175,45 @@
     <string>Excluir coordenador.</string>
    </property>
   </action>
+  	  <action name="actionConsultar">
+	   <property name="text">
+	    <string>Consultar</string>
+	   </property>
+	   <property name="statusTip">
+	    <string>Consultar coordenador(es).</string>
+	   </property>
+	  </action>
+	  <action name="actionSobre_o_SCH">
+	   <property name="text">
+	    <string>Sobre o SCH</string>
+	   </property>
+	   <property name="statusTip">
+	    <string>Informações sobre o programa SCH.</string>
+	   </property>
+	  </action>
+	  <action name="actionExibir_Ajuda">
+	   <property name="text">
+	    <string>Exibir Ajuda</string>
+	   </property>
+	   <property name="statusTip">
+	    <string>Exibir tutorial de ajuda do SCH.</string>
+	   </property>
+	  </action>
+	  <action name="actionSair">
+	   <property name="checkable">
+	    <bool>false</bool>
+	   </property>
+	   <property name="text">
+	    <string>Sair</string>
+	   </property>
+	   <property name="statusTip">
+	    <string>Sair do programa SCH.</string>
+	   </property>
+	   <property name="shortcut">
+	    <string/>
+	   </property>
+	  </action>
+	 </widget>
+	 <resources/>
+	 <connections/>
+	</ui>
