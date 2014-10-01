@@ -154,3 +154,24 @@
     <widget class="QMenu" name="menuCoordenador">
      <property name="statusTip">
       <string>Opções para o administrador cadastrar, deletar ou consultar os coordenadores.</string>
+  <action name="actionDeletar">
+   <property name="text">
+    <string>Deletar</string>
+   </property>
+  </action>
+  <action name="actionCadastrar">
+   <property name="text">
+    <string>Cadastrar</string>
+   </property>
+   <property name="statusTip">
+    <string>Cadastrar coordenador.</string>
+   </property>
+  </action>
+  <action name="actionExcluir">
+   <property name="text">
+    <string>Excluir</string>
+   </property>
+   <property name="statusTip">
+    <string>Excluir coordenador.</string>
+   </property>
+  </action>
