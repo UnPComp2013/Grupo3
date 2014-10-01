@@ -33,6 +33,29 @@
     <property name="text">
      <string>SCH - Sistema de Cadastro de Horários</string>
     </property>
+         <addaction name="separator"/>
+     <addaction name="actionConsultar"/>
+     <addaction name="separator"/>
+    </widget>
+    <addaction name="menuCoordenador"/>
+    <addaction name="separator"/>
+    <addaction name="actionSair"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuAjuda">
+    <property name="title">
+     <string>Ajuda</string>
+    </property>
+    <addaction name="actionSobre_o_SCH"/>
+    <addaction name="separator"/>
+    <addaction name="actionExibir_Ajuda"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menuArquivo"/>
+   <addaction name="menuAjuda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+
          </property>
      <property name="title">
       <string>Coordenador</string>
