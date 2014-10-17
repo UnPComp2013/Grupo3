@@ -7,15 +7,19 @@ Administrador::Administrador(QWidget *parent) :
 {
     ui->setupUi(this);
     connect(ui->actionSair, SIGNAL(triggered()), this, SLOT(close()));
-    connect(ui->actionCadastrar, SIGNAL(triggered()), this, SLOT(cadastrarCoord()));
+    connect(ui->actionConsultar, SIGNAL(triggered()), this, SLOT(ConsultarCoord()));
+    connect(ui->actionExcluir, SIGNAL(triggered()), this, SLOT(ExcluirCoord()));
 }
-
 Administrador::~Administrador()
 {
     delete ui;
 }
-void Administrador::cadastrarCoord()
+void Administrador::ConsultarCoord()
 {
-    this->close();
     TelaConsultar.show();
 }
+void Administrador::ExcluirCoord()
+{
+    TelaExcluir.show();
+}
+
