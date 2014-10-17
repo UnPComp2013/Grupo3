@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <regras.h>
 #include <administrador.h>
 
 namespace Ui {
