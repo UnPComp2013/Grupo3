@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include <administrador.h>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -19,4 +20,5 @@ void MainWindow::ativarAdministrador()
 {
     this->close();
     TelaAdmin.show();
+
 }
