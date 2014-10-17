@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 
+
 namespace Ui {
 class Consultar;
 }
@@ -10,13 +11,18 @@ class Consultar;
 class Consultar : public QMainWindow
 {
     Q_OBJECT
-    
+
+public slots:
+    void SairConsultar();
+
 public:
     explicit Consultar(QWidget *parent = 0);
     ~Consultar();
+
     
 private:
     Ui::Consultar *ui;
+
 };
 
 #endif // CONSULTAR_H
